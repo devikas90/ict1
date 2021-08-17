@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="C:\Users\pc\Desktop\ICT\KERALA\ABCD\style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <style>
+      body {font-family: Arial, Helvetica, sans-serif;
+        background-size: cover;
+      }
+      form {border: 1px solid #fafdf9;}
+      
+      
+      input[type=text], input[type=password] {
+        width: 25%;
+        padding: 1px 20px;
+        margin: 12px 0;
+        display:list-item;
+        /*border: 1px solid #ccc;
+        box-sizing:border-box;*/
+      }
+      
+      button {
+        background-color: #5ebdf5;
+        color: white;
+        padding: 4px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 10%;
+      }
+      
+      button:hover {
+        opacity: 0.8;
+      }
+      
+      .cancelbtn {
+        width: 10%;
+        padding: 5px 1px;
+        background-color: #f44336;
+      }
+      
+      .container {
+        padding: 0px;
+        min: width 2px;
+      }
+      /* Change styles for span and cancel button on extra small screens */
+      @media screen and (max-width: 300px) {
+        span.psw {
+           display: block;
+           float: none;
+        }
+        .cancelbtn {
+           width: 100%;
+        }
+      }
+      </style>
+</head>
+<body background="C:\Users\pc\Desktop\ICT\KERALA\ABCD\Bootstrap\PIC\ramakkalmedu.jpg">
+
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+        <div class="container-fluid">
+            
+          <a class="navbar-brand" href="#"><p class="text-white">Experience In Kerala</p>
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"><p class="text-white">Home</p>
+                    </a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <font class="text-white">Where To Go</font>
+                    
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Thiruvananthapuram</a></li>
+                  <li><a class="dropdown-item" href="#">Kollam</a></li>
+                 <!--<li><hr class="dropdown-divider"></li>-->
+                  <li><a class="dropdown-item" href="#">Pathanamthitta</a></li>
+                  <li><a class="dropdown-item" href="#">Alapuzha</a></li>
+                  <li><a class="dropdown-item" href="#">Kottayam</a></li>
+                  <li><a class="dropdown-item" href="#">Idukki</a></li>
+                  <li><a class="dropdown-item" href="#">Ernakulam</a></li>
+                  <li><a class="dropdown-item" href="#">Thrissur</a></li>
+                  <li><a class="dropdown-item" href="#">Palakkad</a></li>
+                  <li><a class="dropdown-item" href="#">Malappuram</a></li>
+                  <li><a class="dropdown-item" href="#">Kozhikode</a></li>
+                  <li><a class="dropdown-item" href="#">Wayanad</a></li>
+                  <li><a class="dropdown-item" href="#">Kannur</a></li>
+                  <li><a class="dropdown-item" href="#">Kasargode</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html"><p class="text-white">Login</p></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="C:\Users\pc\Desktop\ICT\KERALA\ABCD\Bootstrap\Travel-Desk.html"><p class="text-white">Travel Desk</p></a>
+              </li>
+              <!--<li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>-->
+            </ul>
+          </div>
+        </div>
+        </nav>
+            <!--<form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>-->
+            <!--<form action="#" class="loginpage">
+
+              <H2>Please Login..</H2>
+              <br>
+              <div>
+                  <div class="login-cont">
+                      <label>User name</label>
+                      <br>
+                      <input type="text" placeholder="Enter user name">
+                      <br>
+                      </div>
+                      <div class="login-cont">
+                          <br>
+                      <label>password</label>
+                      <br>
+                      <input type="password" placeholder="Enter password"><br>
+                  </div>
+                  <div>
+                      <br>
+                      <button id="login-button">LOG IN</button><br>
+                           </div>
+                  
+                  <br>
+                  <div class="login-misc">
+                      <h4>Need an Account</h4>
+                      <a href="#" >Sign In</a>
+                  </div>
+                  </div>
+          </form>-->
+         <!-- <form action="#" class="loginpage">
+            <H2>User Login </H2>
+            <br>
+                <div class="login-cont">
+                    <label>User name</label>
+                    <br>
+                    <input type="text" placeholder="Enter user name">
+                    <br>
+                    </div>
+                    <div class="login-cont">
+                        <br>
+                    <label>password</label>
+                    <br>
+                    <input type="password" placeholder="Enter password"><br>
+                </div>
+                <div >
+                    <br>
+                    <button id="login-button">LOG IN</button><br>
+      
+                </div>
+                <br>
+                <div class="login-misc">
+                    <h4>Need an Account</h4>
+                    <a href="#" >Sign In</a>
+                </div>
+        </form>-->
+        <form action="#" method="post">
+          <!--<div class="imgcontainer">
+            <img src="img_avatar2.png" alt="Avatar" class="avatar">
+          </div>-->
+        
+        
+          <div class="container">
+            <h4>User Login</h4>
+            <br>
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+        
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+        
+            <button type="submit">Login</button>
+            <label>
+              <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+          </div>
+        
+          <div class="container">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <br>
+            <span class="psw"> <a href="#">New User???</a></span>
+            &nbsp;<span class="psw"> <a href="signin.html">Sign In???</a></span>
+          </div>
+        </form>
+          
+      </body>
+      </html>
+    
+                
+
+

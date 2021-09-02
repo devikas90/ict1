@@ -9,85 +9,53 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
     <style>
-    body {font-family: Arial, Helvetica, sans-serif;
-        box-sizing: border-box;
-      background-size: cover;
+  
+    .f1{
+      
+  border-radius: 1px;
+  border: 1px solid #0e1e97;
+  background-color: rgb(218, 240, 239);
+  padding: 1%;
+  margin-left: 30%;
+  margin-right: 30%;
+  align-items: center;
+  margin-top: 1%;
+
     }
-    /* Full-width input fields */
-  input[type=text], input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
+
+.f2{
+  vertical-align: middle;
 }
 
-input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
-}
-
-hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
-}
-
-/* Set a style for all buttons */
-button {
-  background-color: #04AA6D;
+input[type=submit] {
+  width: 30%;
+  background-color: #4CAF50;
   color: white;
-  padding: 14px 20px;
+  padding: 5px 5px;
   margin: 8px 0;
   border: none;
+  border-radius: 4px;
   cursor: pointer;
-  width: 50%;
-  opacity: 0.9;
+  align-self: center;
+
+}
+body{
+  background-size: cover;
+}
+h2{
+  padding: 0.5%;
 }
 
-button:hover {
-  opacity:1;
-}
-
-/* Extra styles for the cancel button */
-.cancelbtn {
-  padding: 14px 20px;
-  background-color: #f44336;
-}
-
-/* Float cancel and signup buttons and add an equal width */
-.cancelbtn, .signupbtn {
-  float: left;
-  width: 50%;
-}
-
-/* Add padding to container elements */
-.container {
-  padding: 16px;
-}
-
-/* Clear floats */
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-/* Change styles for cancel button and signup button on extra small screens */
-@media screen and (max-width: 300px) {
-  .cancelbtn, .signupbtn {
-    width: 50%;
-  }
-}
     </style>
+    <script async src="keralasignin.js"></script>
 </head>
-<body background="PIC/ramakkalmedu.jpg">
+<body background="C:\Users\pc\Desktop\ICT\KERALA\ABCD\Bootstrap\PIC\aditya-chache-G2tz4a8ZE7A-unsplash.jpg">
 
     
     <nav class="navbar navbar-expand-lg navbar-light bg-info">
         <div class="container-fluid">
             
-          <a class="navbar-brand" href="index.html"><p class="text-white">Experience In Kerala</p>
+          <a class="navbar-brand" href="#"><p class="text-white">Experience In Kerala</p>
             </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -105,56 +73,84 @@ button:hover {
                     
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="thi.html">Thiruvananthapuram</a></li>
-                  <li><a class="dropdown-item" href="kollam.html">Kollam</a></li>
+                  <li><a class="dropdown-item" href="#">Thiruvananthapuram</a></li>
+                  <li><a class="dropdown-item" href="#">Kollam</a></li>
                  <!--<li><hr class="dropdown-divider"></li>-->
-                  <li><a class="dropdown-item" href="pathanamthitta.html">Pathanamthitta</a></li>
-                  <li><a class="dropdown-item" href="Alapuzha.html">Alapuzha</a></li>
-                  <li><a class="dropdown-item" href="kottayam.html">Kottayam</a></li>
-                  <li><a class="dropdown-item" href="idukki.html">Idukki</a></li>
-                  <li><a class="dropdown-item" href="ernakulam.html">Ernakulam</a></li>
-                  <li><a class="dropdown-item" href="thrissur.html">Thrissur</a></li>
-                  <li><a class="dropdown-item" href="palakkad.html">Palakkad</a></li>
-                  <li><a class="dropdown-item" href="malapuram.html">Malappuram</a></li>
-                  <li><a class="dropdown-item" href="kozhikode.html">Kozhikode</a></li>
-                  <li><a class="dropdown-item" href="wayanad.html">Wayanad</a></li>
-                  <li><a class="dropdown-item" href="kannur.html">Kannur</a></li>
-                  <li><a class="dropdown-item" href="kasargod.html">Kasargode</a></li>
+                  <li><a class="dropdown-item" href="#">Pathanamthitta</a></li>
+                  <li><a class="dropdown-item" href="#">Alapuzha</a></li>
+                  <li><a class="dropdown-item" href="#">Kottayam</a></li>
+                  <li><a class="dropdown-item" href="#">Idukki</a></li>
+                  <li><a class="dropdown-item" href="#">Ernakulam</a></li>
+                  <li><a class="dropdown-item" href="#">Thrissur</a></li>
+                  <li><a class="dropdown-item" href="#">Palakkad</a></li>
+                  <li><a class="dropdown-item" href="#">Malappuram</a></li>
+                  <li><a class="dropdown-item" href="#">Kozhikode</a></li>
+                  <li><a class="dropdown-item" href="#">Wayanad</a></li>
+                  <li><a class="dropdown-item" href="#">Kannur</a></li>
+                  <li><a class="dropdown-item" href="#">Kasargode</a></li>
                 </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="login.html"><p class="text-white">Login</p></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="Travel-Desk.html"><p class="text-white">Travel Desk</p></a>
+                <a class="nav-link" href="C:\Users\pc\Desktop\ICT\KERALA\ABCD\Bootstrap\Travel-Desk.html"><p class="text-white">Travel Desk</p></a>
               </li>
               
             </ul>
           </div>
         </div>
         </nav>
-        <form action="action_page.php" style="border:1px solid #ccc">
-            <div class="container">
-              <h1>Sign In</h1>
-              <p>Please fill in this form to create an account.</p>
-              <hr>
-          
-              <label for="email"><b>Email</b></label>
-              <input type="text" placeholder="Enter Email" name="email" required>
-          
-              <label for="psw"><b>Password</b></label>
-              <input type="password" placeholder="Enter Password" name="psw" required>
-          
-              <label for="psw-repeat"><b>Repeat Password</b></label>
-              <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-          
+        
               
-              <div class="clearfix">
-                <button type="button" class="cancelbtn">Cancel</button>
-                <button type="submit" class="signupbtn">Sign In</button>
-              </div>
-            </div>
-          </form>
-    
-</body>
-</html>
+              
+        <div class="f1" >      
+                <form name="contactForm" onsubmit="return validateForm()" action="#" method="post">
+                  
+                  <h2><font color="blue">Registration Form</font></h2>
+                  <div>
+                      <label>Full Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;
+                      <input type="text" placeholder="Enter Name" name="name">
+                      <div class="error" id="nameErr"></div>
+                  </div>
+                  <div>
+                      <label>Email Address</label>&nbsp;&nbsp;&nbsp;
+                      <input type="text" placeholder="Enter Email Id" name="email">
+                      <div class="error" id="emailErr"></div>
+                  </div>
+                  <div>
+                      <label>Mobile Number</label>
+                      <input type="text" placeholder="Enter Phone number" name="mobile">
+                      <div class="error" id="mobileErr"></div>
+                  </div>
+                  <div>
+                      <label>Country</label>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <select name="country">
+                          <option>Select</option>
+                          <option>Australia</option>
+                          <option>India</option>
+                          <option>United States</option>
+                          <option>United Kingdom</option>
+                      </select>
+                      <div class="error" id="countryErr"></div>
+                  </div>
+                  <div>
+                      <label>Gender</label>
+                      <div class="form-inline">
+                          <label><input type="radio" name="gender" value="male"> Male</label>
+                          <label><input type="radio" name="gender" value="female"> Female</label>
+                      </div>
+                      <div class="error" id="genderErr"></div>
+                  </div>
+                  
+                  <div>
+                      <center><input type="submit" value="Submit"></center>
+                  </div>
+                  </div>
+              </form>
+              
+              </body>
+              </html>
+            

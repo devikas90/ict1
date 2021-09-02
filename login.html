@@ -161,13 +161,14 @@ myInput.onkeyup = function() {
   if(myInput.value.match(lowerCaseLetters)) {  
     letter.classList.remove("invalid");
     letter.classList.add("valid");
-    passlabel.innerHTML ="Weak"
+    passlabel.innerHTML ="Weak";
+    passlabel.style.color = "red";
 
   } else {
     letter.classList.remove("valid");
     letter.classList.add("invalid");
-    passlabel.innerHTML = ""
-    passlabel2.innerHTML = ""
+    passlabel.innerHTML = "";
+    passlabel2.innerHTML = "";
   }
   
   // Validate capital letters
@@ -175,7 +176,8 @@ myInput.onkeyup = function() {
   if(myInput.value.match(upperCaseLetters)) {  
     capital.classList.remove("invalid");
     capital.classList.add("valid");
-    passlabel.innerHTML ="Weak"
+    passlabel.innerHTML ="Weak";
+    passlabel.style.color = "red";
 
   } else {
     capital.classList.remove("valid");
@@ -188,7 +190,8 @@ myInput.onkeyup = function() {
   if(myInput.value.match(numbers)) {  
     number.classList.remove("invalid");
     number.classList.add("valid");
-    passlabel.innerHTML ="Medium"
+    passlabel.innerHTML ="Medium";
+    passlabel.style.color = "orange";
 
   } else {
     number.classList.remove("valid");
@@ -201,7 +204,7 @@ myInput.onkeyup = function() {
     length.classList.add("valid");
     passlabel.innerHTML ="Strong";
     passlabel2.innerHTML = "Password is valid";
-    passlabel2.style.color = "green";
+    passlabel.style.color = "green";
     emaillab.style.backgroundColor = "";
 
    

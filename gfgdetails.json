@@ -1,0 +1,9 @@
+[
+    {"slno":"Sl.No","pname":"Product","quantity":"quantity","unit":"unit","dept":"dept","notes":"notes"},
+    {"slno":"1","pname":"Rice","quantity":"10","unit":"Kg","dept":"grocery","notes":"Long Grain"},
+    {"slno":"2","pname":"floor","quantity":"5","unit":"Kg","dept":"grocery","notes":"Roasted"},
+    {"slno":"3","pname":"apple","quantity":"2","unit":"Kg","dept":"grocery","notes":"Kashmir"},
+    {"slno":"4","pname":"orange","quantity":"1","unit":"Kg","dept":"grocery","notes":"Sweet"},
+    {"slno":"5","pname":"milk","quantity":"2","unit":"Litre","dept":"grocery","notes":"Fresh Cow Milk"}
+
+]
